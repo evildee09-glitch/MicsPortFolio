@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micaella Gel Salsona | Operations &amp; Sales Support Specialist</title>
+    <meta name="description" content="Portfolio of Micaella Gel Salsona, an Operations &amp; Sales Support Specialist in Boracay Island, Aklan, Philippines, with 5+ years in operations, sales support, analytics, and compliance.">
+    <meta name="theme-color" content="#05020a">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2305020a'/%3E%3Cpath d='M16 5l9 11-9 11-9-11z' fill='none' stroke='%23bf55ec' stroke-width='2'/%3E%3Cpath d='M16 12l4 4-4 4-4-4z' fill='%2300f2fe'/%3E%3C/svg%3E">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Rajdhani:wght@400;500;700&amp;display=swap">
+    <script src="script.js" defer></script>
+</head>
+<body data-theme="default">
+
+    <!-- Icon sprite -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="i-sound" viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></symbol>
+    </svg>
+
+    <!-- Background effects -->
+    <canvas id="stars" class="stars" aria-hidden="true"></canvas>
+    <div class="mist" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a class="logo-group" href="#home" data-go="0" aria-label="Micaella Gel Salsona, back to top">
+            <span class="logo-icon" aria-hidden="true"></span>
+            <span class="logo-text">MG Salsona</span>
+        </a>
+        <div class="nav-controls">
+            <button class="btn-ui" id="btnAudio" type="button" aria-pressed="false">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sound"/></svg>
+                <span id="audioState">SOUND OFF</span>
+            </button>
+            <button class="btn-ui" id="btnTheme" type="button">PALETTE</button>
+            <button class="btn-ui" id="btnTour" type="button" aria-pressed="false">AUTO TOUR</button>
+        </div>
+    </header>
+
+    <!-- Section navigation dots -->
+    <nav class="dream-progress" aria-label="Sections">
+        <button class="progress-dot active" type="button" data-index="0" data-title="Home" aria-label="Home" aria-current="true"></button>
+        <button class="progress-dot" type="button" data-index="1" data-title="About" aria-label="About"></button>
+        <button class="progress-dot" type="button" data-index="2" data-title="Skills" aria-label="Skills"></button>
+        <button class="progress-dot" type="button" data-index="3" data-title="Experience" aria-label="Experience"></button>
+        <button class="progress-dot" type="button" data-index="4" data-title="Education" aria-label="Education"></button>
+        <button class="progress-dot" type="button" data-index="5" data-title="Contact" aria-label="Contact"></button>
+    </nav>
+
+    <main>
+
+        <!-- 01 HOME -->
+        <section class="dream-section active visible" id="home">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="staircase-container" id="stairs"></div>
+            </div>
+            <div class="dream-card hero-card">
+                <span class="act-tag">Operations &amp; Sales Support Specialist</span>
+                <h1 class="act-title">Micaella Gel Salsona</h1>
+                <p class="act-desc">A dedicated, data-driven professional with over five years of experience in business operations, customer relations, analytics, and compliance.</p>
+                <ul class="chip-row">
+                    <li><span class="contact-chip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>Boracay Island, Malay, Aklan 5608</span></li>
+                    <li><a class="contact-chip" href="tel:+639562635328"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>+63 956 263 5328</a></li>
+                    <li><a class="contact-chip" href="mailto:micaellagelsalsona@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg>micaellagelsalsona@gmail.com</a></li>
+                </ul>
+                <div class="btn-row">
+                    <button class="btn-ui btn-primary" type="button" data-go="3">View Experience</button>
+                    <button class="btn-ui" type="button" data-go="5">Get in Touch</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02 ABOUT -->
+        <section class="dream-section" id="about">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="mirror-ocean"></div>
+            </div>
+            <div class="dream-card wide">
+                <div class="about-grid">
+                    <figure class="photo-frame">
+                        <!-- Replace with your own photo: images/profile.jpg -->
+                        <img src="images/profile-placeholder.svg" alt="Portrait of Micaella Gel Salsona (placeholder)" width="400" height="500" loading="lazy" decoding="async">
+                    </figure>
+                    <div>
+                        <span class="act-tag">01 &bull; About Me</span>
+                        <h2 class="act-title">Professional Profile</h2>
+                        <p class="act-desc">Known for excellent organization, adaptability, and the ability to optimize processes through structured systems and accurate reporting. I excel in maintaining efficient workflows, developing reports, managing data, and ensuring accuracy across documentation and sales processes.</p>
+                        <p class="act-desc">I thrive in dynamic environments, perform well under pressure, and deliver high-quality output with minimal supervision. My background, including branch leadership exposure and analytical support across multiple locations, equips me to contribute to sales performance tracking, process improvement, and operational efficiency.</p>
+                        <ul class="stats">
+                            <li><strong>5+</strong><span>Years combined experience</span></li>
+                            <li><strong>4</strong><span>Professional roles</span></li>
+                            <li><strong>Multi</strong><span>Branch operations support</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03 SKILLS -->
+        <section class="dream-section" id="skills">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="clockwork-ring ring-1"></div>
+                <div class="clockwork-ring ring-2"></div>
+                <div class="clockwork-ring ring-3"></div>
+            </div>
+            <div class="dream-card wide">
+                <span class="act-tag">02 &bull; Capabilities</span>
+                <h2 class="act-title">Skills &amp; Strengths</h2>
+                <div class="skills-grid">
+                    <div>
+                        <h3 class="block-title">Technical Skills &amp; Software</h3>
+                        <ul class="chip-list">
+                            <li class="glyph" data-tone="440">Google Workspace</li>
+                            <li class="glyph" data-tone="494">Microsoft Office</li>
+                            <li class="glyph" data-tone="523">CRM &amp; File Tools</li>
+                            <li class="glyph" data-tone="587">Basic Graphic Design</li>
+                            <li class="glyph" data-tone="659">Zoom</li>
+                            <li class="glyph" data-tone="698">MS Teams</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="block-title">Key Character Traits</h3>
+                        <ul class="chip-list">
+                            <li class="glyph" data-tone="330">Detail-Oriented</li>
+                            <li class="glyph" data-tone="349">Highly Organized</li>
+                            <li class="glyph" data-tone="392">Reliable &amp; Trustworthy</li>
+                            <li class="glyph" data-tone="415">Tech-Savvy Fast Learner</li>
+                            <li class="glyph" data-tone="466">Excellent Communicator</li>
+                            <li class="glyph" data-tone="554">Self-Directed</li>
+                        </ul>
+                    </div>
+                    <div class="span-2">
+                        <h3 class="block-title">Core Competencies &amp; Strengths</h3>
+                        <ul class="check-list">
+                            <li>Sales Operations Support</li>
+                            <li>Data Analysis &amp; Report Development</li>
+                            <li>Performance Tracking &amp; KPIs</li>
+                            <li>Process Optimization &amp; Workflow Efficiency</li>
+                            <li>Documentation &amp; Compliance Support</li>
+                            <li>Administrative &amp; Operational Coordination</li>
+                            <li>Client Service &amp; Communication</li>
+                            <li>Calendar, Email &amp; Task Management</li>
+                            <li>Cross-Functional Team Collaboration</li>
+                            <li>Audit Readiness &amp; Data Entry Accuracy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04 EXPERIENCE -->
+        <section class="dream-section" id="experience">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="polyhedron">
+                    <div class="face face1"></div>
+                    <div class="face face2"></div>
+                    <div class="face face3"></div>
+                    <div class="face face4"></div>
+                    <div class="face face5"></div>
+                    <div class="face face6"></div>
+                </div>
+            </div>
+            <div class="dream-card wide">
+                <span class="act-tag">03 &bull; Career</span>
+                <h2 class="act-title">Professional Experience</h2>
+
+                <div class="tabs" role="tablist" aria-label="Work experience">
+                    <button class="tab" role="tab" id="tab-0" aria-controls="panel-0" aria-selected="true" type="button">Currency Exchange</button>
+                    <button class="tab" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="false" tabindex="-1" type="button">Branch Assistant</button>
+                    <button class="tab" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1" type="button">ESL Teacher</button>
+                    <button class="tab" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1" type="button">Front Office</button>
+                </div>
+
+                <div class="panels">
+                    <article class="panel active" role="tabpanel" id="panel-0" aria-labelledby="tab-0">
+                        <h3 class="job-title">Currency Exchange Area Associate</h3>
+                        <p class="job-meta">Palawan Pawnshop Group of Companies <span>January 2024 &ndash; Present</span></p>
+                        <ul class="job-list">
+                            <li>Provide sales and operational support to multiple branches, ensuring accurate data flow and timely reporting.</li>
+                            <li>Perform detailed data entry, documentation, and reconciliation of foreign exchange transactions and sales performance.</li>
+                            <li>Prepare daily, weekly, and monthly sales reports for management, enabling informed decision-making.</li>
+                            <li>Monitor exchange rates, sales trends, and operational metrics, ensuring information is accurate and updated.</li>
+                            <li>Conduct compliance checks (KYC, documentation, audit preparation) and assist with implementation of policy updates.</li>
+                            <li>Coordinate communication across branches, area analysts, and the head office to resolve issues and maintain smooth operations.</li>
+                            <li>Support the sales and operations teams by tracking KPIs, identifying discrepancies, and assisting in performance analysis.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1">
+                        <h3 class="job-title">Branch Assistant</h3>
+                        <p class="job-meta">Palawan Pawnshop Group of Companies <span>November 2019 &ndash; January 2024</span></p>
+                        <ul class="job-list">
+                            <li>Delivered frontline operations and customer service while handling sales transactions, documentation, and inquiries.</li>
+                            <li>Managed inventory records, compliance requirements, and reporting, ensuring high accuracy and audit readiness.</li>
+                            <li>Supported daily branch operations, including reporting, account management, and data management.</li>
+                            <li>Assisted with marketing and sales initiatives, improving customer engagement and contributing to revenue growth.</li>
+                            <li>Provided operational support to branch leadership and served as Branch Head reliever, ensuring continuity of business processes.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2">
+                        <h3 class="job-title">ESL Teacher (Part-Time)</h3>
+                        <p class="job-meta">51Talk Online Education Group <span>August 2023 &ndash; August 2024</span></p>
+                        <ul class="job-list">
+                            <li>Designed structured lessons and maintained performance documentation for diverse international learners.</li>
+                            <li>Strengthened communication, scheduling, and digital collaboration skills through remote teaching platforms.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3">
+                        <h3 class="job-title">Guest Service Agent / Front Office Associate</h3>
+                        <p class="job-meta">Astoria Current <span>May 2019 &ndash; October 2019</span></p>
+                        <ul class="job-list">
+                            <li>Coordinated guest communications, bookings, and documentation using hotel management systems.</li>
+                            <li>Handled cash flow, shift reports, and accounting tasks while maintaining accuracy and professionalism.</li>
+                            <li>Delivered high-level customer service and assisted management with administrative and operational needs.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 05 EDUCATION -->
+        <section class="dream-section" id="education">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="prism-pillar pillar-a"></div>
+                <div class="prism-pillar pillar-b"></div>
+                <div class="prism-pillar pillar-c"></div>
+                <div class="prism-pillar pillar-d"></div>
+            </div>
+            <div class="dream-card wide">
+                <span class="act-tag">04 &bull; Learning</span>
+                <h2 class="act-title">Education</h2>
+                <div class="edu-grid">
+                    <article class="edu-card">
+                        <span class="edu-years">2022 &ndash; Present</span>
+                        <h3>Master in Business Administration <small>(Under-graduate)</small></h3>
+                        <p>Lipa City Colleges</p>
+                    </article>
+                    <article class="edu-card">
+                        <span class="edu-years">2021 &ndash; 2022</span>
+                        <h3>18-Unit Professional Education</h3>
+                        <p>Balete Community College</p>
+                    </article>
+                    <article class="edu-card">
+                        <span class="edu-years">2015 &ndash; 2019</span>
+                        <h3>Bachelor of Science in Travel Management</h3>
+                        <p>STI College Kalibo</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 06 CONTACT -->
+        <section class="dream-section" id="contact">
+            <div class="scene-3d" aria-hidden="true">
+                <div class="clockwork-ring ring-1"></div>
+                <div class="clockwork-ring ring-2"></div>
+            </div>
+            <div class="dream-card hero-card">
+                <span class="act-tag">05 &bull; Contact</span>
+                <h2 class="act-title">Let&rsquo;s Connect</h2>
+                <p class="act-desc">Have an opportunity or project in mind? I&rsquo;d love to hear from you.</p>
+                <ul class="contact-list">
+                    <li><a class="contact-row" href="mailto:micaellagelsalsona@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg>micaellagelsalsona@gmail.com</a></li>
+                    <li><a class="contact-row" href="tel:+639562635328"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>+63 956 263 5328</a></li>
+                    <li><span class="contact-row"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>Boracay Island, Malay, Aklan 5608</span></li>
+                </ul>
+                <div class="btn-row">
+                    <button class="btn-ui" type="button" data-go="0">&#8634; Back to Top</button>
+                </div>
+            </div>
+            <p class="foot">&copy; 2026 Micaella Gel Salsona</p>
+        </section>
+
+    </main>
+</body>
+</html>

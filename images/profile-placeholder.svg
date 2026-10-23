@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Profile photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b0f33"/>
+      <stop offset="1" stop-color="#0a2a3a"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bf55ec"/>
+      <stop offset="1" stop-color="#00f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="190" r="72" fill="url(#fg)" opacity=".85"/>
+  <path d="M60 500c0-92 62-150 140-150s140 58 140 150z" fill="url(#fg)" opacity=".65"/>
+  <text x="200" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="3" fill="#ffffff" opacity=".75">PHOTO PLACEHOLDER</text>
+</svg>
